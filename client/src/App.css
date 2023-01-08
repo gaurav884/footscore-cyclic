@@ -1,0 +1,12 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.61);
+  background-color:rgb(16,17,18);
+  font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+button:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+.filter-container{
+    max-width:400px;
+    margin:100px auto;
+    padding:10px 10px ;
+    border:0.2px solid rgba(73, 70, 70, 0.233);
+    border-radius: 8px;
+    min-height: 60vh;
+    box-shadow:0 0 6px 5px rgba(97, 95, 95, 0.301);
+}
+.player-team-radio{
+    text-align:center;
+}
+.player-team-radio button{
+    margin:10px auto;
+    padding:10px 15px;
+    border: 1px solid rgba(158, 149, 149, 0.219);
+    font-size:17px;
+
+
+}
+.player-team-radio button:hover{
+    transform:scale(1.1);
+    background-color: rgb(61, 58, 58);
+    cursor: pointer;
+
+}
+
+
+
+.league-selector-div{
+    margin:10px 15px;
+    padding:10px 15px;
+}
+
+.team-selector-div{
+    margin:10px 15px;
+    padding:10px 15px;
+}
+
+
+.player-name-div{
+    margin:10px 15px;
+    padding:10px 15px;
+}
+
+.player-name-input{
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    margin:3px 0;
+    padding:3px 5px;
+}
+
+.player-form-submit{
+    border: 1px solid rgba(158, 149, 149, 0.219);
+    margin:10px 30px;
+    padding:10px 15px;
+
+}
+.player-form-submit:hover{
+   transform:scale(1.1);
+   background-color: rgba(116, 110, 110, 0.301);
+   cursor: pointer;
+
+
+}
+
+@media(max-width:432px){
+    .league-selector-div{
+        margin:10px 0;
+        padding:10px 15px;
+    }
+    .team-selector-div{
+        margin:0;
+        padding:10px 15px;
+    }
+    .player-form-submit{
+        border: 1px solid rgba(158, 149, 149, 0.219);
+        margin:10px 15px;
+        padding:10px 15px;
+    
+    }
+    .player-name-div{
+        margin:10px 7px;
+        padding:10px 7px;
+    }
+    
+    
+
+}
+

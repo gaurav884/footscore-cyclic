@@ -1,0 +1,157 @@
+.league-info-container{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.league-container-1{
+    margin:20px 20px;
+
+}
+.league-container-2{
+    margin:20px 20px;
+
+}
+.links-container{
+    height: auto;
+    text-align:center;
+    margin:50px 50px;
+    display:flex;
+    justify-content:center;
+    flex-shrink: center;
+    border:0.2px solid rgba(95, 93, 93, 0.301)
+   
+   
+}
+.league-links{
+    width:100%;
+    color:white;
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+    border:0.2px solid rgba(95, 93, 93, 0.301)
+    
+}
+
+.league-name-link{
+    height:30px;
+    padding-top:5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.links-container a{
+   
+    padding:30px 20px;
+    text-decoration:none;
+    
+}
+.links-container a:hover{
+    background-color:rgba(73, 73, 73, 0.418);
+}
+
+.selected{
+    
+    background-color:rgba(73, 73, 73, 0.418);
+}
+
+
+
+.top-scorer-card-container{
+    display:flex;
+    justify-content:flex-start;
+    width:400px;
+    margin: 20px auto;
+    border:0.5px solid rgba(94, 94, 94, 0.226);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 0 8px 0.02px grey;
+}
+.scorer-position{
+    margin:3px 8px;
+    padding:12px 8px;
+}
+.player-image{
+    max-height:50px;
+    border-radius:100%;
+   margin: auto 10px;
+   margin-top:12px;
+}
+.player-info{
+    padding:10px 30px;
+}
+
+
+
+@media(max-width:804px){
+    .links-container a{
+   
+        padding:22px 20px;
+        text-decoration:none;
+        
+    }
+}
+
+
+
+@media(max-width:600px){
+    .links-container{
+        flex-direction: column;
+        margin: 30px 20px;
+        
+    }
+    .links-container a{
+        margin:0;
+        padding:8px 8px;
+        text-decoration:none;
+        
+    }
+    
+}
+
+@media(max-width:432px){
+
+    .top-scorer-card-container{
+        
+        width:300px;
+        margin: 20px auto;
+        
+    }
+    .scorer-position{
+        margin:3px 0;
+        padding:12px 8px;
+    }
+    .player-image{
+        max-height:40px;
+        margin: auto 5px;
+         margin-top:12px;
+    }
+    .player-info{
+        padding:10px 15px;
+    }
+
+}
+@media(max-width:432px){
+
+    .top-scorer-card-container{
+        
+        max-width:250px;
+        margin: 20px auto;
+        
+    }
+    .scorer-position{
+        margin:3px 0;
+        padding:12px 8px;
+    }
+    .player-image{
+         margin: auto 5px;
+         margin-top:12px;
+    }
+    .player-info{
+        padding:10px 15px;
+        font-size: 12px;
+    }
+    .scorer-position{
+        font-size: 15px;
+    }
+
+}

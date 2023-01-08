@@ -1,0 +1,67 @@
+.league-name{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    
+}
+.league-name-heading{
+    padding :10px 10px;
+    color:white;
+}
+.league-logo{
+    max-height: 50px;
+    max-width: 10%;
+}
+
+
+.standings-container table{
+      
+    border-right: 0.5px solid rgba(128, 128, 128, 0.363);
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.329);
+    border-radius: 8px;
+    overflow: hidden;
+    margin:50px auto;
+    margin-bottom: 50px;
+    
+}
+.standings-cell{
+    border-top: 0.5px solid rgba(128, 128, 128, 0.37);
+    padding:5px 8px;
+    margin:1px;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.37);
+    color:white;
+    font-weight: normal;
+}
+.standings-club-cell{
+    overflow: hidden;
+    display: flex;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.37);
+    border-top: 0.5px solid rgba(128, 128, 128, 0.37);
+    padding:10px 10px;
+    color:white;
+    
+}
+
+
+.team-logo{
+    max-width:10%;
+    max-height: 10%;
+    
+}
+.team-name{
+    margin:auto 5px;
+    
+}
+
+@media(max-width:300px){
+    .league-name-heading{
+        font-size:1rem;
+        
+    }
+    .league-name{
+        
+        margin: 25px auto;
+        
+    }
+    
+}

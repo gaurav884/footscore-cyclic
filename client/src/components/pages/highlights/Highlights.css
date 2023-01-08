@@ -1,0 +1,142 @@
+.highlight-heading{
+    text-align: center;
+    margin-top:10px;
+}
+
+.content-container-link{
+    text-decoration: none;
+    
+}
+
+.loading-screen{
+    margin:200px auto;
+    
+    text-align: center;
+    height:auto;
+    
+}
+.vid-container{
+    display:flex;
+    box-shadow:0 5px 10px 7px rgba(117, 117, 117, 0.247);
+    margin:50px 200px;
+    height:auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+.vid-container:hover{
+   
+    transform:scale(1.05);
+    
+}
+.image-container-link{
+    max-height:200px;
+    max-width:300px;
+    text-align:center;
+}
+.image-container{
+    max-height:200px;
+    max-width:300px;
+    text-align:center;
+    
+}
+.thumbnail{
+    max-width:100%;
+    max-height:100%;
+    }
+
+
+ .content-container{
+    max-width:100%;
+    max-height:100%;
+    margin:25px 10px;
+ }   
+ .content-container h3 {
+   
+     margin: 10px 7px;
+}  
+ 
+.content-container p {
+    font-size: 0.8rem;
+    margin: 10px 7px;
+}
+.match{
+    color:white;
+}  
+
+@media(max-width:1024px){
+    .vid-container{
+        margin:30px 80px;
+        
+     }
+    
+}
+@media(max-width:850px){
+    .vid-container{
+        margin:20px 100px;
+        flex-direction: column;
+        text-align: center;
+       
+     }
+     .image-container{
+        text-align: center;
+    }
+    .content-container{
+        text-align: center;
+        margin:8px;
+     }
+     .image-container{
+        margin:0 auto;
+     } 
+    
+}
+@media(max-width:550px){
+    .vid-container{
+       margin:20px 50px;
+       overflow: hidden;
+    
+    }
+    .content-container p {
+        margin: 5px 5px;
+       font-size: 0.7rem;
+} 
+
+    
+}
+
+@media(max-width:433px){
+    .highlight-heading{
+        font-size: 0.8rem;
+    }
+    .vid-container{
+       margin:20px 50px;
+    
+    }
+    .content-container h3 {
+        margin: 5px 5px;
+        font-size: 0.9rem;
+   }
+   
+    
+    
+}
+@media(max-width:350px){
+    .highlight-heading{
+        font-size: 0.6rem;
+    }
+    .vid-container{
+       margin:20px 50px;
+    
+    }
+    .content-container h3 {
+        
+        font-size: 0.7rem;
+   }
+   .content-container p {
+        
+        font-size: 0.6rem;
+}   
+    
+    
+}
+
